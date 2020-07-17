@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+  </head>
+  <body>
+  <h1>Welcome Aliens!!</h1>
+  <ul>
+    <li><a href="#">first.py</a></li>
+  </ul>
+  <h3>Interested in going to Mars fill the <a href="{% url 'result' %}">Form</a></h3>
+</body>
+</html>
